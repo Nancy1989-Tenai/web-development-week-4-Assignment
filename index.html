@@ -1,1 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpendWise Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo">
+                <h2>SpendWise</h2>
+            </div>
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active">
+                    <span class="icon">📊</span>
+                    <span>Dashboard</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="icon">💳</span>
+                    <span>Transactions</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="icon">📈</span>
+                    <span>Analytics</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="icon">🎯</span>
+                    <span>Budgets</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="icon">⚙️</span>
+                    <span>Settings</span>
+                </a>
+            </nav>
+        </aside>
 
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-left">
+                    <h1>Dashboard Overview</h1>
+                    <p class="subtitle">Welcome back, Alex! Here's your financial summary.</p>
+                </div>
+                <div class="header-right">
+                    <button class="btn-primary">+ Add Transaction</button>
+                    <div class="user-avatar">A</div>
+                </div>
+            </header>
+
+            <!-- Dashboard Cards Grid -->
+            <section class="cards-grid">
+                <article class="card" tabindex="0">
+                    <div class="card-header">
+                        <span class="card-icon">🍔</span>
+                        <span class="card-category">Food & Dining</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-amount">$487.50</h3>
+                        <p class="card-label">This Month</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="trend up">↑ 12% from last month</span>
+                    </div>
+                </article>
+
+                <article class="card" tabindex="0">
+                    <div class="card-header">
+                        <span class="card-icon">🚗</span>
+                        <span class="card-category">Transport</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-amount">$234.00</h3>
+                        <p class="card-label">This Month</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="trend down">↓ 5% from last month</span>
+                    </div>
+                </article>
+
+                <article class="card" tabindex="0">
+                    <div class="card-header">
+                        <span class="card-icon">🏠</span>
+                        <span class="card-category">Rent</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-amount">$1,200.00</h3>
+                        <p class="card-label">This Month</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="trend neutral">— Same as last month</span>
+                    </div>
+                </article>
+
+                <article class="card" tabindex="0">
+                    <div class="card-header">
+                        <span class="card-icon">🎬</span>
+                        <span class="card-category">Entertainment</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-amount">$156.75</h3>
+                        <p class="card-label">This Month</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="trend up">↑ 8% from last month</span>
+                    </div>
+                </article>
+
+                <article class="card" tabindex="0">
+                    <div class="card-header">
+                        <span class="card-icon">💰</span>
+                        <span class="card-category">Savings</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-amount">$500.00</h3>
+                        <p class="card-label">This Month</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="trend up">↑ 15% from last month</span>
+                    </div>
+                </article>
+
+                <article class="card" tabindex="0">
+                    <div class="card-header">
+                        <span class="card-icon">💡</span>
+                        <span class="card-category">Utilities</span>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-amount">$189.30</h3>
+                        <p class="card-label">This Month</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="trend down">↓ 3% from last month</span>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
